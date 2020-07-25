@@ -3,12 +3,6 @@
                "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
 	<session-factory>
-		<!-- 데이터베이스 접속 정보 -->
-		<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
-		<property name="connection.url">jdbc:oracle:thin:@localhost:1521</property>
-		<property name="connection.username">taewon</property>
-		<property name="connection.password">taewon</property>
-
 		<!-- 커넥션 풀 1개 -->
 		<property name="connection.pool_size">1</property>
 
