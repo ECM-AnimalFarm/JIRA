@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+     <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!-- 모델 객체 패키지 -->
+<hibernate-mapping default-lazy="false">
+
+	<!-- 객체명과 테이블명 연결 -->
+   <class name="com.animalfarm.jira.JiraUser" table="jira_user">
+   
+		<!-- PK ID 값 -->
+		<id name="memId" column="MEM_ID" type="java.lang.Integer" />
+		<property name="ip" column="IP" type="java.lang.String" />
+		<property name="hit" column="HIT" type="int" />
+		<property name="regDate" column="REG_DATE" type="string" />
+		<property name="modDate" column="MOD_DATE" type="string" />
+	
+	</class>
+
+</hibernate-mapping>

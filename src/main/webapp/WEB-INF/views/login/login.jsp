@@ -8,19 +8,38 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<!-- 
+	로그인 화면, ZALA 최초 화면
+ -->
 <body>
-	<h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
+
+	<!-- main div -->
 	<div class="container" id="container">
+		<div class="form-container forgot-password-container" id="forgot-password-container">
+			<form action="#">
+				<h1>Forgot Your Password?</h1>
+				<span>Don't worry! Just fill in your email and we'll send you a code to reset your password!</span>
+					<input type="email" placeholder="Email"/>
+				<button>SEND EMAIL</button>
+			</form>
+		</div>
 		<div class="form-container sign-up-container">
 			<form action="#">
 				<h1>Create Account</h1>
 				<div class="social-container">
-					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a> <a
-						href="#" class="social"><i class="fab fa-google-plus-g"></i></a> <a
-						href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#" class="social">
+						<i class="fab fa-facebook-f"></i>
+					</a> 
+					<a href="#" class="social">
+						<i class="fab fa-google-plus-g"></i>
+					</a> 
+					<a href="#" class="social">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
 				</div>
-				<span>or use your email for registration</span> <input type="text"
-					placeholder="Name" /> <input type="email" placeholder="Email" />
+				<span>or use your email for registration</span> 
+				<input type="text" placeholder="Name" /> 
+				<input type="email" placeholder="Email" />
 				<input type="password" placeholder="Password" />
 				<button>Sign Up</button>
 			</form>
@@ -34,24 +53,13 @@
 						href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 				</div>
 				<span>or use your account</span> <input type="email"
-					placeholder="Email" /> <input type="password"
-					placeholder="Password" /> <span id="forgot_password">Forgot your password?</span>
+					placeholder="Email" /> 
+					<input type="password" placeholder="Password" /> 
+					<span id="forgot_password">Forgot your password?</span>
 				<button>Sign In</button>
 			</form>
 		</div>
-		<div class="form-container forgot-password-container">
-			<form action="#">
-				<h1>Forgot Your Password?</h1>
-				<div class="social-container">
-					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a> <a
-						href="#" class="social"><i class="fab fa-google-plus-g"></i></a> <a
-						href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-				</div>
-				<span>Don't worry! Just fill in your email and we'll send you a code to reset your password!</span> <input type="text"
-					placeholder="Name" /> <input type="email" placeholder="Email" />
-				<button>SEND EMAIL</button>
-			</form>
-		</div>
+		
 		<div class="overlay-container">
 			<div class="overlay">
 				<div class="overlay-panel overlay-left">
